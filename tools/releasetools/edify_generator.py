@@ -268,11 +268,11 @@ class EdifyGenerator(object):
                                   security_patch, device):
     self.Print("----------------------------------------------")
     if is_plus:
-      self.Print("        PixelExperience (Plus edition)")
-      self.Print("                by jhenrique09")
+      self.Print("              ravenOS")
+      self.Print("                by Aaradhay Vijay")
     else:
-      self.Print("              PixelExperience")
-      self.Print("              by jhenrique09")
+      self.Print("              ravenOS")
+      self.Print("              by Aaradhay Vijay")
     self.Print("----------------------------------------------")
     self.Print(" Android version: %s"%(android_version))
     self.Print(" Build id: %s"%(build_id))
